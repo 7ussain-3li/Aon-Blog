@@ -1,0 +1,29 @@
+.header {
+    border-bottom: 1px solid #666;
+    height: 72px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: #fff;
+}
+
+.header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+.header .content h1 {
+    font-size: 24px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header ul li {
+    margin-left: 20px;
+    font-size: 18px;
+}
