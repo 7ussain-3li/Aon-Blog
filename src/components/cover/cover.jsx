@@ -7,7 +7,7 @@ export const Cover = () => {
             <div className={styles.overlay}>
                 <Container>
                     <h1>Simple Blog.</h1>
-                    <p>A blog created by Aon 2023</p>
+                    <p>A blog created by <span>Aon</span> 2023</p>
                 </Container>
             </div>
         </div>

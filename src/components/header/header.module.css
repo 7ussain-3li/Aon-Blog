@@ -18,6 +18,11 @@
     font-size: 24px;
 }
 
+
+.header .content span {
+    color: #25888e;
+}
+
 .header ul {
     list-style-type: none;
     display: flex;
@@ -26,4 +31,17 @@
 .header ul li {
     margin-left: 20px;
     font-size: 18px;
+}
+
+.header ul li a {
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    color: #25888e;
+    font-weight: bold;
+}
+
+.active a {
+    color: #25888e;
 }

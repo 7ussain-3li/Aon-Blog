@@ -9,7 +9,7 @@ export const Footer = () => {
         <footer className={styles.footer}>
             <Container>
                 <div className={styles.content}>
-                    <p>&copy; Aon 2023. All rights reserved.</p>
+                    <p>&copy; <span>Aon</span> 2023. All rights reserved.</p>
                     <div className={styles.media}>
                         <a href="https://instagram.com/aon.iq?igshid=OGQ5ZDc2ODk2ZA==">
                             <FaInstagramSquare />

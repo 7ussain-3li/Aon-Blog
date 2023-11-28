@@ -15,6 +15,10 @@
     font-weight: bold;
 }
 
+.footer .content span {
+    color: #25888e;
+}
+
 .footer .content .media{
     display: flex;
     align-items: center;
@@ -25,4 +29,9 @@
 .footer .content .media a{
     color: #000;
     text-decoration: none;
+}
+
+.footer .content .media a:hover{
+    color: #25888e;
+    font-size: 110%;
 }
