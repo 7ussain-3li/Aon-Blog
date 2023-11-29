@@ -1,4 +1,4 @@
-.articleList {
+.loadingList {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 68px 28px;
@@ -7,27 +7,14 @@
     z-index: 2;
 }
 
-.loadMore {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 48px;
-    background-color: #25888e;
-    border: none;
-    border-radius: 25px;
-    font-size: 20px;
-    color: #fff;
-}
-
 @media screen and (max-width: 768px) {
-    .articleList {
+    .loadingList {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 500px) {
-    .articleList {
+    .loadingList {
         grid-template-columns: repeat(1, 1fr);
     }
 }

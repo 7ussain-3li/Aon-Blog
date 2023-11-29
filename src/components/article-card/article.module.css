@@ -28,3 +28,7 @@
     color: #00f;
     text-decoration: none;
 }
+
+.card a:hover {
+    text-decoration: underline;
+}
