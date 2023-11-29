@@ -43,6 +43,6 @@
     font-weight: bold;
 }
 
-.active a {
+.header ul li.active a {
     color: #25888e;
 }
