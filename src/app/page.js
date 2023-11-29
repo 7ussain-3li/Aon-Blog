@@ -52,11 +52,11 @@ export default function Home() {
             ))}
           </div>
         )}
-        <Space height={100} />
+        <Space height={150} />
         {loadingMore && <Loading />}
-        <button className={styles.loadMore} onClick={handleLoadMore} disabled={loadingMore}>
-          {loadingMore ? "Loading..." : "Load More"}
-        </button>
+          <button className={styles.loadMore} onClick={handleLoadMore} disabled={loadingMore}>
+            {loadingMore ? "Loading..." : "Load More"}
+          </button>
       </Container>
       <Space height={150} />
     </main>
